@@ -2,7 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
+    <div className='mainBody'>
+      app
     </div>
   )
 }
