@@ -1,8 +1,12 @@
+import React from 'react'
+import "../Style/Home.css"
 
 const Home = () => {
   return (
-    <div>
-        
+    <div className='mainHome'>
+        <div className='landingPage'>
+            <section></section>
+        </div>
     </div>
   )
 }
