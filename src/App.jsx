@@ -3,10 +3,8 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <>
-      <Home />
-    </>
-  );
-};
+    <div>App</div>
+  )
+}
 
 export default App;
