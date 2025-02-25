@@ -3,10 +3,8 @@ import "../Style/Home.css"
 
 const Home = () => {
   return (
-    <div className='mainHome'>
-        <div className='landingPage'>
-            <section></section>
-        </div>
+    <div>
+      Home
     </div>
   )
 }
