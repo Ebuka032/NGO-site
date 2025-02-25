@@ -1,0 +1,7 @@
+.donateBody{
+    width: 100vw;
+    background-color:#9CF809;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
