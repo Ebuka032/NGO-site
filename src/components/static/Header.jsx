@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../Style/Header.css"
+import { NavLink } from 'react-router'
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
             </div>
             <div className="text">
                 <h4>Home</h4>
-                <h4>About Us</h4>
+                <NavLink to='/About'><h4>About Us</h4></NavLink>
                 <h4>Features Page</h4>
                 <h4>Get Involve</h4>
                 <h4>Contact Us</h4>
