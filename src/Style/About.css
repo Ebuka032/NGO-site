@@ -10,7 +10,7 @@
 .langingPage{
     width: 100%;
     height: 100vh;
-    background: url(../Images/Hero-page.png) no-repeat center center/cover;
+    background: url(../assets/Images/Hero-page.png) no-repeat center center/cover;
     position: relative;
     
 
@@ -31,4 +31,65 @@
         color: white;
        }
     }
+}
+
+.OurFocusMain{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/Images/group-happy-african-children-drinking-water-from-faucetclean-water-problems_892345-1839.jpg)   no-repeat center center/cover;
+    position: relative;
+
+    & section{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.74);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+
+        & div{
+            width: 67%;
+            height: 87%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px ;
+            position: relative;
+        }
+    }
+}
+
+.focusImage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/Images/babygirlEdite.jpg)   no-repeat center center/cover;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+.blackBackroud{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.focusTaxt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

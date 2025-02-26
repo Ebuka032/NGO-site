@@ -11,8 +11,12 @@ const Header = () => {
                 <img src="/public/logo.png" alt="" />
             </div>
             <div className="text">
+                <NavLink to="/" className="nav-link">
                 <h4>Home</h4>
-                <NavLink to='/About'><h4>About Us</h4></NavLink>
+                </NavLink> 
+            <NavLink to='/About' className="nav-link">
+            <h4>About Us</h4>
+            </NavLink>
                 <h4>Features Page</h4>
                 <h4>Get Involve</h4>
                 <h4>Contact Us</h4>

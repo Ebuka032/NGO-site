@@ -39,7 +39,7 @@ const Home = () => {
           <div className="impact4"></div>
         </div>
       </div>
->>>>>>> 9b16f3db07eb932eef08067d6f6969d5b733f5ba
+
 
       <div className="chealth">
         <div className="button-tag">OUR FOCUS</div>
