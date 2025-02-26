@@ -1,7 +1,66 @@
 .donateBody{
-    width: 100vw;
-    background-color:#9CF809;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color:#366227
+    }
+
+    .donateHeader{
+    width: 85%;
+    height: 10%;
     display: flex;
     justify-content: center;
-    align-content: center;
-}
+    align-items: center;
+    }
+
+    .donateMoney{
+      width: 85%;
+      height: 5%;
+      background-color:#366227 ;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+
+
+      & h1{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 800;
+      color: white;
+      }
+
+    }
+
+
+    .donateDesc{
+     width: 85%;
+     height: 50%;
+     display: flex;
+     justify-content: center;
+    }
+
+ .descRiption{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+
+
+
+
+    & p{
+        width: 100%;
+        height:20% ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+    
+        
+    &  h5{
+       font-weight: 700;
+    }
+     
+    }
+
+
+
+ }
