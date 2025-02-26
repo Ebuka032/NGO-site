@@ -12,7 +12,6 @@ export  const Element = createBrowserRouter([
                 index: true,
                 element: <Home />
             },
-
             {
                 path: "/features",
                 element: <Features />
