@@ -5,14 +5,16 @@ const OurFocus = () => {
   return (
     <div className='OurFocusMain'>
         <section>
-            <div>
+            <nav>
             <div className='focusImage'>
               <div className='blackBackroud'></div>
               </div>
             <div className='focusTaxt'>
-              ffff
+             <div className='greenBar'>Our Focus</div>
+             <div></div>
+             <div></div>
             </div>
-            </div>
+            </nav>
         </section>
     </div>
   )
