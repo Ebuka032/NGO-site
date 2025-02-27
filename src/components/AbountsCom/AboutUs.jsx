@@ -79,6 +79,7 @@ const AboutSections = () => {
           </div>
         </nav>
       </section>
+      
     </div>
   );
 };
