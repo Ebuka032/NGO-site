@@ -1,5 +1,5 @@
 import React from "react";
-import "./Involve.css";
+import '../Style/Involve.css'
 import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Involve = () => {

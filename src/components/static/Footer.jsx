@@ -7,32 +7,32 @@ import { IoMailSharp } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className='footer_body'>
-        <div>
-            <div className='logo'>
-                <img  src="/public/logo.png" alt=""/>
-            </div>
+       <div className="footer_wrapper">
+        <div className="footer_left">
+          <div className="footer_logo">
+              <img src="/cfhi lw.png" alt="" />
+          </div>
         </div>
-        <div className='text'>
-            <h3>Our contacts<br/><br/>
-            8, Exellence & Friends street<br/>
-            Dawaki,Abuja (FCT) Nigeria<br/><br/>
-            Exellence House, plot 5001<br/>
-            Commercial Action Area, New<br/>
-            Owerri, Imo State Nigeria.</h3>
-            <h3>Mobile:<br/>
-            +234 809 608 3359,<br/>
-            +234 809 608 3336<br/><br/>
-            FOLLOW US:<br/>
+        <div className="footer_center">
+          <h1 className='footer_header'>Our Contacts</h1>
+          <h3 className='address'>8, Excellence & Friends Street Dawaki, Abuja (FCT) Nigeria</h3>
+          <h3 className='address'>Excellence House, Plot 5001 Commercial Action Area, New Owerri, Imo State Nigeria</h3>
+        </div>
+        <div className="footer_right">
+          <h1 className='footer_header'>Mobile:</h1>
+          <h3 className='address'>+234 809 608 3359</h3>
+          <h3 className='address'>+234 809 608 3336</h3>
+          <h3 className='address'>Follow us: </h3>
+          <div className="footer_logo1">
             <RiFacebookCircleFill />
-            <AiFillTwitterCircle/>
-            <AiFillInstagram/>
-            <IoMailSharp/></h3>
-            
-
-            <h4></h4>
-
+            <AiFillTwitterCircle />
+            <AiFillInstagram />
+            <IoMailSharp />
+          </div>
         </div>
+       </div>
     </div>
+
   )
 }
 

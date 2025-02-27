@@ -1,22 +1,24 @@
 import React from 'react'
 import "../../Style/Header.css"
-import { useNavigate } from 'react-router'
+import { NavLink, useNavigate } from 'react-router'
 
 const Header = () => {
     const navigate = useNavigate()
-  return (
-    <div className='header_body'>
-        {/* gvjbhkjnlkmnjhcgvvhvhvbn */}
+    return (
+
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
             </div>
             <div className="text">
-                <h4>Home</h4>
-                <h4>About Us</h4>
-                <h4 onClick={()=> navigate('/features')}>Features Page</h4>
-                <h4>Get Involve</h4>
-                <h4>Contact Us</h4>
+                <NavLink to={"/"}> <h4>Home</h4></NavLink>
+                <h4></h4>
+                <NavLink to={"/about-us"}><h4>About Us</h4></NavLink>
+                <NavLink to={"/features"}><h4>Features Page</h4></NavLink>
+                <NavLink to={"/get-involve"}><h4>Get Involve</h4></NavLink>
+                <NavLink to={"/contact-us"}><h4>Contact Us</h4></NavLink>
+                <h4></h4>
+                <h4></h4>
             </div>
             <div className="right">
                 <div className="donate">
@@ -24,8 +26,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Header
