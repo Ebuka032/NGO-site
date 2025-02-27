@@ -12,8 +12,10 @@ const Contact = () => {
 
      <div className='content'>
         <div className='image-section'>
-            <img src="" alt="Group" />
-            <img src="" alt="group-image" />
+        <div className="images">
+            <img src="src\assets\Images\office building.jpg" alt="Group" />
+            <img src="src\assets\Images\office image 2.jpg" alt="group-image" />
+        </div>
         </div>
 
         <div className='form-section'>

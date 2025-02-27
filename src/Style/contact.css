@@ -35,9 +35,10 @@ h2{
     width: 45%;
   }
   
-  .building-image, .group-image {
-    width: 100%;
-    margin-bottom: 10px;
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .form-section {
