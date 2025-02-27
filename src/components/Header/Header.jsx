@@ -7,7 +7,7 @@ const Header = () => {
     <div className='header_body'>
         <div className="header_wrapper">
             <div className="logo">
-                <img src="/public/logo.png" alt="" />
+                <img src="/logo.png" alt="" />
             </div>
             <div className="text">
                 <NavLink to="/" className="nav-link">
