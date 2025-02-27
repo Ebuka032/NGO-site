@@ -1,9 +1,8 @@
 import React from 'react'
-import "../../Style/Header.css"
-import { useNavigate } from 'react-router'
+import "../../Style/header.css"
+import { NavLink } from 'react-router'
 
 const Header = () => {
-    const navigate = useNavigate()
   return (
     <div className='header_body'>
         <div className="header_wrapper">
@@ -11,9 +10,15 @@ const Header = () => {
                 <img src="/public/logo.png" alt="" />
             </div>
             <div className="text">
+                <NavLink to="/" className="nav-link">
                 <h4>Home</h4>
+                </NavLink>
+                <NavLink to="/about" className="nav-link">
                 <h4>About Us</h4>
-                <h4 onClick={()=> navigate('/features')}>Features Page</h4>
+                </NavLink>
+                <NavLink to="/features" className="nav-link">
+                <h4 >Features Page</h4> 
+                </NavLink>
                 <h4>Get Involve</h4>
                 <h4>Contact Us</h4>
             </div>

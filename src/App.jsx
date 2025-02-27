@@ -4,8 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 
 const App = () => {
   return (
-    <RouterProvider router={Element} />
-
+    <RouterProvider router={Element}/>
   )
 }
 

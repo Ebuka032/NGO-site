@@ -1,3 +1,4 @@
+
 import "../Style/home.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { LuHeartOff } from "react-icons/lu";
@@ -48,6 +49,7 @@ const Home = () => {
           <div className="impact4"></div>
         </div>
       </div>
+
 
       <div className="chealth">
         <div className="button-tag">OUR FOCUS</div>
