@@ -1,6 +1,6 @@
 .featurewrapper {
     width: 100%;
-    height: 150vh;
+    /* height: 150vh; */
     background-color: black;
    
    
@@ -9,7 +9,7 @@
 .featureimagewrapper {
     width: 100%;
     height: 85%;
-    background-image: url('../Images/group-happy-african-children-drinking-water-from-faucetclean-water-problems_892345-1839.jpg');
+    background-image: url('src/assets/Images/group-happy-african-children-drinking-water-from-faucetclean-water-problems_892345-1839.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column-reverse;
@@ -30,11 +30,11 @@
 
 
 .featureimagetext {
-    width: 35%;
+    width: 50%;
     height: 25%;
     /* background-color: white; */
     margin-left: 40px;
-    margin-bottom: 150px;
+    margin-top: 500px;
     z-index: 100;
     text-align: left;
 }
@@ -47,11 +47,9 @@
 
 .imagetext {
     color: #ffffff;
-    font-weight: 400;
-    font-size: 50px;
-    letter-spacing: 5px;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: fantasy;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .featuredonatebtn {
@@ -112,7 +110,7 @@ h2 {
 .imageAndTextLayers .imageHolder1{
     width: 30%;
     height: 90%;
-    background-image: url(../Images/TailorImg.png);
+    background-image: url(../assets/Images/TailorImg.png);
     background-position: center;
     background-size: cover;
     border-radius: 50% 50% 0%;
@@ -121,18 +119,49 @@ h2 {
 .imageAndTextLayers .imageHolder2{
     width: 30%;
     height: 90%;
-    background-image: url(../Images/babies-mums.jpg);
+    background-image: url(../assets/Images/babies-mums.jpg);
     border-radius: 0% 50% 50%;
 }
 
 .imageAndTextLayers .imageHolder3{
     width: 30%;
     height: 90%;
-    background-image: url(../Images/UNI537557.JPG.jpg);
+    background-image: url(../assets/Images/UNI537557.JPG.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 0% 50% 50% 0%;
 }
+
+
+.imageAndTextLayers .imageHolder4{
+    width: 30%;
+    height: 90%;
+    background-image: url(../assets/Images/Programevent2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% 0% 0% 50%;
+}
+
+
+.imageAndTextLayers .imageHolder5{
+    width: 30%;
+    height: 90%;
+    background-image: url(../assets/Images/Baby-with-Cancer-6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.imageAndTextLayers .imageHolder6{
+    width: 30%;
+    height: 90%;
+    background-image: url(../assets/Images/Hamzat.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% 50% 0% 50%;
+}
+
+
 
 
 .textLayerHeading{
@@ -157,8 +186,3 @@ h2 {
     background: white;
 }
 
-p{
-    font-size: 17px;
-    font-weight: 540;
-    font-family: Arial, Helvetica, sans-serif;
-}
