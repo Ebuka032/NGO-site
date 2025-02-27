@@ -60,17 +60,20 @@ const Donate = () => {
                 alt=""
               />
             </div>
-            {/* Update the button to navigate to the donate form page */}
             <button onClick={() => navigate("/donate-form")}>DONATE NOW</button>
           </div>
           
           <div className="visaPay">
             <h2>2. Local Bank Transfer</h2>
             <p>ACCOUNT NAME:</p>
+            <br />
             <p>Centre for Family Health Initiative</p>
             <p>
-              BANK: Fidelity Bank ACCOUNT NUMBER: 5620062190 SWIFT CODE:
-              FIDTNGLA
+              BANK: Fidelity Bank
+              <br />
+              ACCOUNT NUMBER: 5620062190 
+              <br />
+              SWIFT CODE: FIDTNGLA
             </p>
           </div>
           
@@ -79,7 +82,9 @@ const Donate = () => {
             <h5> Write a Cheque "ACCOUNT NAME"</h5>
             <p>Centre for Family Health Initiative</p>
             <p>
-              BANK: Fidelity Bank ACCOUNT NUMBER: 5620062190
+              BANK: Fidelity Bank
+              <br />
+               ACCOUNT NUMBER: 5620062190
             </p>
           </div>
         </div>
