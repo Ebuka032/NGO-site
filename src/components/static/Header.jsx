@@ -1,9 +1,12 @@
 import React from 'react'
 import "../../Style/Header.css"
+import { useNavigate } from 'react-router'
 
 const Header = () => {
+    const navigate = useNavigate()
   return (
     <div className='header_body'>
+        {/* gvjbhkjnlkmnjhcgvvhvhvbn */}
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
@@ -11,7 +14,7 @@ const Header = () => {
             <div className="text">
                 <h4>Home</h4>
                 <h4>About Us</h4>
-                <h4>Features Page</h4>
+                <h4 onClick={()=> navigate('/features')}>Features Page</h4>
                 <h4>Get Involve</h4>
                 <h4>Contact Us</h4>
             </div>
