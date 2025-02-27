@@ -10,6 +10,7 @@ const About = () => {
         <div className='langingPage'>
             <section>
                 <div>
+                  {/* ebuka */}
                     <h1>AT CFHI, ARE DEDICATED TO IMPROVING THE LIVING <br /> STANDING OF ALL HUMANS IN EVERY </h1>
                 </div>
             </section>
