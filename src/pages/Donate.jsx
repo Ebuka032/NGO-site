@@ -17,7 +17,6 @@ const Donate = () => {
 
 
 
-
       </div>
     </div>
   )
