@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="map-section">
         <p>Emmanuel Cathedral</p>
         {/* type */}
-        <img src="path/to/map-image.png" alt="Map" className="map-image" /> 
+        <img src="src\assets\Images\map frame.png" alt="Map" className="map-image" /> 
       </div>
     </div>
 
