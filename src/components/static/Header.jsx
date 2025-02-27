@@ -6,7 +6,6 @@ const Header = () => {
     const navigate = useNavigate()
   return (
     <div className='header_body'>
-        {/* gvjbhkjnlkmnjhcgvvhvhvbn */}
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
