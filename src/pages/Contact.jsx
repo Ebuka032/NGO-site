@@ -48,7 +48,7 @@ const Contact = () => {
       </div>
       <div className="map-section">
         <p>Emmanuel Cathedral</p>
-        <a href="view-larger-map-link">View larger map</a>
+        {/* type */}
         <img src="path/to/map-image.png" alt="Map" className="map-image" /> 
       </div>
     </div>
