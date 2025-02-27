@@ -5,19 +5,19 @@ import { NavLink } from 'react-router'
 const Header = () => {
   return (
     <div className='header_body'>
-        {/* gvjbhkjnlkmnjhcgvvhvhvbn */}
+    
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
             </div>
             <div className="text">
-                <NavLink to="/" className="nav-link">
+            
                 <h4>Home</h4>
-                </NavLink> 
-            <NavLink to='/About' className="nav-link">
-            <h4>About Us</h4>
-            </NavLink>
-                <h4>Features Page</h4>
+
+                <h4>About Us</h4>
+                <NavLink to="/features">
+                <h4 >Features Page</h4> 
+                </NavLink>
                 <h4>Get Involve</h4>
                 <h4>Contact Us</h4>
             </div>
