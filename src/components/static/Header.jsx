@@ -1,19 +1,22 @@
 import React from 'react'
 import "../../Style/Header.css"
+import { useNavigate } from 'react-router'
 
 const Header = () => {
+    const navigate = useNavigate()
   return (
     <div className='header_body'>
+        {/* gvjbhkjnlkmnjhcgvvhvhvbn */}
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
             </div>
             <div className="text">
-                <h4>HOME</h4>
-                <h4>ABOUT US</h4>
-                <h4>FEATURES PAGE</h4>
-                <h4>GET INVOLVE</h4>
-                <h4>CONTACT US</h4>
+                <h4>Home</h4>
+                <h4>About Us</h4>
+                <h4 onClick={()=> navigate('/features')}>Features Page</h4>
+                <h4>Get Involve</h4>
+                <h4>Contact Us</h4>
             </div>
             <div className="right">
                 <div className="donate">
