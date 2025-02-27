@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Style/About.css"
 import OurFocus from '../components/AbountsCom/OurFocus'
+import AboutUs from '../components/AbountsCom/AboutUs'
 
 
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
             </section>
         </div>
         <OurFocus/>
+        <AboutUs/>
     </div>
   )
 }

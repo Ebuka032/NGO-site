@@ -52,8 +52,8 @@
         position: absolute;
 
         & nav{
-            width: 67%;
-            height: 87%;
+            width: 80%;
+            height: 85%;
             /* background-color: white; */
             display: flex;
             justify-content: center;
@@ -65,7 +65,7 @@
 }
 
 .focusImage{
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -81,18 +81,261 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
 }
 
 
-.focusTaxt{
+.focusText {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-}
+    gap: 30px; 
+    color: white;
+  }
+  
+  .description-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .description-container p {
+    white-space: pre-line; 
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    line-height: 1.8; 
+  }
+  
+  .description-container p::after {
+    content: "";
+    display: block;
+    margin-top: 15px; 
+  }
+  
+  
 
 .greenBar{
-    width: 10%;
+    width: 37%;
+    height: 8%;
+    background-color: green;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.textTop{
+    width: 100%;
+    height: 46%;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+  
+.textButton{
+    width: 100%;
+    height: 46%;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.aboutUsMainContainer{
+    width: 100%;
+    height: max-content;
+    background-color: aqua;
+}
+
+.ourApproach{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+.greenBox{
+    width: 40%;
+    height: 12%;
+    background-color: #9bf809;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #091e00;
+}
+
+.blackBox{
+    width: 50%;
+    height: 20%;
+    background-color: #121212;
+    border-radius: 50px;
+    padding: 26px;
+    display: flex;
+    gap: 10px;
+
+    & article{
+        width: 20%;
+        height: 92%;
+        background-color: #366227;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fefffe;
+        font-size: 12px;
+    }
+
+    & section{
+        width: 75%;
+        height: 100%;
+        flex-direction: column;
+        /* background-color: #fefffe; */
+        color: #fefffe;
+        font-size: 12.7px;
+    }
+}
+
+
+.darkGreen{
+    width: 40%;
+    height: 14%;
+    background-color: #366227;
+    border-radius: 44px;
+    padding: 18px;
+    gap: 20px;
+    display: flex;
+
+    & article{
+        width: 29%;
+        height: 92%;
+        background-color: #9bf809;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 12px;
+    }
+
+    & section{
+        width: 68%;
+        height: 100%;
+        display: flex;
+        color: #f2ffee;
+        align-items: center;
+    }
+}
+
+.ourPhiDiv{
+    width: 80%;
+    height: 55%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.topnav{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+   
+
+    & section{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        color: #f2ffee;
+        align-items: center;
+        background-color: #121212;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+}
+
+.downnav{
+    width: 100%;
+    height: 90%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+
+    & article{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #1a1a1a;
+        font-size: 15px;
+        text-align: justify;
+        justify-content: stretch;
+        padding-bottom: 10px;
+    }
+}
+
+.ourApproachConntinue{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.lastUp{
+    width: 100%;
     height: 10%;
+    background-color: black;
+}
+
+.partners-section {
+    width:  80%;
+    height: 50%;
+    background: #2F4F2F;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.partners-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.partners-logos img {
+    width: 100px;
+    height: auto;
 }
