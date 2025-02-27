@@ -96,7 +96,7 @@ const Donate = () => {
             <h1>
               MEET OUR
               <br />
-              PARTNERS
+              PARTNERS 
             </h1>
           </div>
           <div className="sponsorDiv">
@@ -111,7 +111,7 @@ const Donate = () => {
               <div className="sponsorImg1"></div>
               <div className="sponsorImg1"></div>
               <div className="sponsorImg1"></div>
-              <div className="sponsorImg1"></div>
+              <div className="sponsorImg1"></div> 
             </div>
           </div>
         </div>
