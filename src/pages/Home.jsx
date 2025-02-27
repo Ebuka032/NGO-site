@@ -4,6 +4,14 @@ import { FaArrowRight } from "react-icons/fa6";
 import { LuHeartOff } from "react-icons/lu";
 import { LiaHandHoldingHeartSolid } from "react-icons/lia";
 import { FaHandsHoldingChild } from "react-icons/fa6";
+import image from "../assets/Images/CCFN-Logo-pqgfylhlha6tbxavgcpy2hmrm4c3qdkq4vbswmqvfc.png";
+import image2 from "../assets/Images/CCSI-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg";
+import image3 from '../assets/Images/TY-DF-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg'
+import image4 from '../assets/Images/PACF-LOGO-pldudcfa3v7cgvjkveuco3r0e2djvgg77tolugy8ig.jpg'
+import image5 from '../assets/Images/PEPFAR-pqgfh1u1wm64lysdwronix10f6tg1rx3q0xieorfko.png'
+import image6 from '../assets/Images/UNICEF-LOGO-pldudcfa3v7cgvjkveuco3r0e2djvgg77tolugy8ig.jpg'
+import image7 from '../assets/Images/GPI-Logo-1-pqgfsyggh2gvo5hsdwyj3wv7aw4tjr6pcyex8v3wrc.png'
+import image8 from '../assets/Images/UN-WOMEN-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg'
 
 const Home = () => {
   return (
@@ -14,6 +22,7 @@ const Home = () => {
           MATTERS.
         </p>
         <button>DONATE NOW</button>
+        <div className="blackBox"></div>
       </div>
       <div className="impactk">
         <div className="leftIm">
@@ -28,7 +37,7 @@ const Home = () => {
           <button>
             READ MORE{" "}
             <FaArrowRight
-              style={{ position: "absolute", top: "11px", right: "5px" }}
+              style={{ position: "absolute", top: "8px", right: "5px" }}
             />
           </button>
         </div>
@@ -84,14 +93,30 @@ const Home = () => {
             PARTNERS
           </p>{" "}
           <div className="partLogo">
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
+            <div className="box">
+              <img src={image} alt="" />
+            </div>
+            <div className="box">
+              <img src={image2} alt="" />
+            </div>
+            <div className="box">
+              <img src={image3} alt="" />
+            </div>
+            <div className="box">
+              <img src={image4} alt="" />
+            </div>
+            <div className="box">
+              <img src={image5} alt="" />
+            </div>
+            <div className="box">
+            <img src={image6} alt="" />
+            </div>
+            <div className="box">
+            <img src={image7} alt="" />
+            </div>
+            <div className="box">
+            <img src={image8} alt="" />
+            </div>
           </div>
         </div>
         <div className="goal">

@@ -5,7 +5,6 @@ import { NavLink } from 'react-router'
 const Header = () => {
   return (
     <div className='header_body'>
-    
         <div className="header_wrapper">
             <div className="logo">
                 <img src="/public/logo.png" alt="" />
