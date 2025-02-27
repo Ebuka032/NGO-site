@@ -1,18 +1,17 @@
 
-import "../Style/home.css";
+import "./home.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { LuHeartOff } from "react-icons/lu";
 import { LiaHandHoldingHeartSolid } from "react-icons/lia";
 import { FaHandsHoldingChild } from "react-icons/fa6";
-import image from "../assets/Images/CCFN-Logo-pqgfylhlha6tbxavgcpy2hmrm4c3qdkq4vbswmqvfc.png";
-import image2 from "../assets/Images/CCSI-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg";
-import image3 from '../assets/Images/TY-DF-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg'
-import image4 from '../assets/Images/PACF-LOGO-pldudcfa3v7cgvjkveuco3r0e2djvgg77tolugy8ig.jpg'
-import image5 from '../assets/Images/PEPFAR-pqgfh1u1wm64lysdwronix10f6tg1rx3q0xieorfko.png'
-import image6 from '../assets/Images/UNICEF-LOGO-pldudcfa3v7cgvjkveuco3r0e2djvgg77tolugy8ig.jpg'
-import image7 from '../assets/Images/GPI-Logo-1-pqgfsyggh2gvo5hsdwyj3wv7aw4tjr6pcyex8v3wrc.png'
-import image8 from '../assets/Images/UN-WOMEN-LOGO-plduddd4ap8mshi7px8z8ligzg8x35jxjyc3bqwuc8.jpg'
-
+import TY from "../../assets/Images/TY.jpg";
+import PACF from "../../assets/Images/PACF.jpg";
+import CCSI from "../../assets/Images/CCSI.jpg";
+import CCFN from "../../assets/Images/CCFN.png";
+import PEPFAR from "../../assets/Images/PEFAR.png"
+import UNICEF from "../../assets/Images/UNICEF.jpg"
+import GPI from "../../assets/Images/GPI.png"
+import UN from "../../assets/Images/UN.jpg"
 const Home = () => {
   return (
     <>
@@ -95,28 +94,28 @@ const Home = () => {
           </p>{" "}
           <div className="partLogo">
             <div className="box">
-              <img src={image} alt="" />
+              <img src={CCFN} alt="" />
             </div>
             <div className="box">
-              <img src={image2} alt="" />
+              <img src={CCSI} alt="" />
             </div>
             <div className="box">
-              <img src={image3} alt="" />
+              <img src={TY} alt="" />
             </div>
             <div className="box">
-              <img src={image4} alt="" />
+              <img src={PACF} alt="" />
             </div>
             <div className="box">
-              <img src={image5} alt="" />
+              <img src={PEPFAR} alt="" />
             </div>
             <div className="box">
-            <img src={image6} alt="" />
+            <img src={UNICEF} alt="" />
             </div>
             <div className="box">
-            <img src={image7} alt="" />
+            <img src={GPI} alt="" />
             </div>
             <div className="box">
-            <img src={image8} alt="" />
+            <img src={UN} alt="" />
             </div>
           </div>
         </div>

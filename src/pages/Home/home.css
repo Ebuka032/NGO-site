@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 9%;
-  background-image: url(../assets/Images/IMAGE.png);
+  background-image: url(../../assets//Images/IMAGE.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -116,7 +116,7 @@
       background-color: white;
       border-bottom-left-radius: 50%;
       border-bottom-right-radius: 50%;
-      background-image: url(../assets/Images/babies-mums.jpg);
+      background-image: url(../../assets/Images/babies-mums.jpg);
       background-size: cover;
       background-position: left;
       background-repeat: no-repeat;
@@ -130,7 +130,7 @@
       border-bottom-left-radius: 50%;
       border-top-right-radius: 50%;
       border-top-left-radius: 50%;
-      background-image: url(../assets/Images/women.jpg);
+      background-image: url(../../assets/Images/women.jpg);
       background-size: cover;
       background-position: left;
       background-repeat: no-repeat;
@@ -142,7 +142,7 @@
       background-color: white;
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
-      background-image: url(../assets/Images/image6.png);
+      background-image: url(../../assets/Images/image6.png);
       background-size: cover;
       background-position: center;
       background-position-x: -70px;
@@ -156,7 +156,7 @@
       border-bottom-right-radius: 50%;
       border-top-right-radius: 50%;
       border-top-left-radius: 50%;
-      background-image: url(../assets/Images/20250227_084623.jpg);
+      background-image: url(../../assets/Images/girls.jpg);
       background-size: cover;
       background-position: left;
       background-repeat: no-repeat;
@@ -172,7 +172,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../assets/Images/group-happy-african-children-drinking-water-from-faucetclean-water-problems_892345-1839.jpg);
+  background-image: url(../../assets/Images/group-happy-african-children-drinking-water-from-faucetclean-water-problems_892345-1839.jpg);
   background-position: center;
   background-size: cover;
 
@@ -201,7 +201,7 @@
     & .partK-img {
       width: 73%;
       height: 70%;
-      background-image: url(../assets/Images/cd7684054ec5036b88f97615ab12d5a2.jpg);
+      background-image: url(../../assets/Images/cd7684054ec5036b88f97615ab12d5a2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position-y: -90px;
@@ -235,7 +235,7 @@
     & .partK-img {
       width: 65%;
       height: 70%;
-      background-image: url(../assets/Images/baby-girl.jpg);
+      background-image: url(../../assets/Images/baby-girl.jpg);
       background-size: cover;
       background-position: center;
       border-radius: 20px;
@@ -372,7 +372,7 @@
         width: 100%;
         height: 70%;
         margin-top: 8.4%;
-        background-image: url(../assets/Images/18582082a75a1808ea7c1189e9fbb7b8.jpg);
+        background-image: url(../../assets/Images/18582082a75a1808ea7c1189e9fbb7b8.jpg);
         background-size: cover;
         background-position: center;
       }
