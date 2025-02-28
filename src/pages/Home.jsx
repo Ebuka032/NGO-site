@@ -16,7 +16,6 @@ import image8 from '../assets/Images/UN-WOMEN-LOGO-plduddd4ap8mshi7px8z8ligzg8x3
 const Home = () => {
   return (
     <>
-    {/* ghjhgfghjkjhgvhjklasdmdnk */}
       <div className="imgk">
         <p>
           MAKE A CHILD SMILE <br /> TODAY, LITTLE THINGS <br />
@@ -44,7 +43,7 @@ const Home = () => {
         </div>
         <div className="rightIm">
           <div className="impact1"></div>
-          <div className="impact2">i</div>
+          <div className="impact2"></div>
           <div className="impact3"></div>
           <div className="impact4"></div>
         </div>
@@ -123,7 +122,7 @@ const Home = () => {
         <div className="goal">
           <div className="leftG">
             <div className="leftInfo">
-              <LuHeartOff size={70} style={{ color: "#9CF809" }} />
+              <LuHeartOff style={{ color: "#9CF809" }} />
               <h4>
                 Become a Beneficiary <br />
                 Today
@@ -138,7 +137,6 @@ const Home = () => {
             </div>
             <div className="leftInfo">
               <LiaHandHoldingHeartSolid
-                size={70}
                 style={{ color: "#9CF809" }}
               />
               <h4>
@@ -156,7 +154,7 @@ const Home = () => {
               </span>
             </div>
             <div className="leftInfo">
-              <FaHandsHoldingChild size={70} style={{ color: "#9CF809" }} />
+              <FaHandsHoldingChild style={{ color: "#9CF809" }} />
               <h4>Become Our Donor</h4>
               <p>Give a helping Hand Today</p>
               <span>
