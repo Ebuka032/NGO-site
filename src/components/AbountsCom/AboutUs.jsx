@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Style/About.css';
+import "../../pages/About/about.css";
 
 const AboutSections = () => {
   return (
@@ -73,14 +73,14 @@ const AboutSections = () => {
             <div className="partners-section">
         <h2>MEET OUR PARTNERS</h2>
         <div className="partners-logos">
-          <img src="path-to-image1.jpg" alt="Partner 1" />
+          {/* <img src="path-to-image1.jpg" alt="Partner 1" />
           <img src="path-to-image2.jpg" alt="Partner 2" />
           <img src="path-to-image3.jpg" alt="Partner 3" />
           <img src="path-to-image4.jpg" alt="Partner 4" />
           <img src="path-to-image5.jpg" alt="Partner 5" />
           <img src="path-to-image6.jpg" alt="Partner 6" />
           <img src="path-to-image7.jpg" alt="Partner 7" />
-          <img src="path-to-image8.jpg" alt="Partner 8" />
+          <img src="path-to-image8.jpg" alt="Partner 8" /> */}
         </div>
       </div>
         </article>

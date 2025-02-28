@@ -1,7 +1,7 @@
 import React from "react";
-import "../../Style/About.css";
+// import "../../Style/About.css";
 import { FirstDescription, SecondDescription } from "./TextArea";
-
+import "../../pages/About/about.css";
 const OurFocus = () => {
   return (
     <div className="OurFocusMain">

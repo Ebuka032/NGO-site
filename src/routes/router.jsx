@@ -1,8 +1,8 @@
 import { Homelayout } from "../components";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home"
 import {createBrowserRouter} from "react-router-dom"
-import Features from "../pages/Features";
-import About from "../pages/About";
+import Features from "../pages/Features/Features";
+import About from "../pages/About/About";
 import React from "react";
 
 

@@ -1,4 +1,5 @@
-import { Header, Footer } from "../static";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 import React from 'react'
 import {Outlet} from "react-router-dom"
 
