@@ -11,7 +11,7 @@ const Donateform = () => {
             <div className="donateimgPart">
                 <div className="iconHub">
                     <IoIosCloseCircleOutline 
-                        size={40} 
+                        size={60} 
                         className="closeIcon" 
                         onClick={() => navigate("/")} 
                     />
