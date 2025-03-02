@@ -1,7 +1,8 @@
 import React from 'react'
-import "./Donate.css"
 
 const Donate = () => {
+  const navigate = useNavigate();
+
   return (
     <div className='donateBody'>
       <div className='donateDiv'>
@@ -18,9 +19,10 @@ const Donate = () => {
 
 
 
+
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Donate
+export default Donate;
