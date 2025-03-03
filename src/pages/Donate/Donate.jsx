@@ -18,16 +18,14 @@ const Donate = () => {
         <div className="descRiption">
           <p>
             CHFI with your generous support, recently donated food items to over
-            50 households , provided scholarship for 2 students,
+            50 households, provided scholarships for 2 students,
             <br />
             <br />
             educational materials to over 10 students, donated over 600 books to
-            2 schools, provided medical support in 2 communities and
+            2 schools, provided medical support in 2 communities, and
             <br />
             <br />
             donated 50 packs of reusable microbial sanitary pads.
-            <br />
-            <br />
             <br />
             <br />
             To support CFHI to distribute relief materials to children in
@@ -52,31 +50,30 @@ const Donate = () => {
             <div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgc9xW_t712-TgFMwJxWxmgiKfTiPjrazjjg&s"
-                alt="image"
+                alt="Visa"
               />
               <SiVisa size={40} />
               <img
                 src="https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png"
-                alt=""
+                alt="Paypal"
               />
             </div>
             <button onClick={() => navigate("/donate-form")}>DONATE NOW</button>
           </div>
-          
+
           <div className="visaPay">
             <h2>2. Local Bank Transfer</h2>
             <p>ACCOUNT NAME:</p>
-            <br />
             <p>Centre for Family Health Initiative</p>
             <p>
               BANK: Fidelity Bank
               <br />
-              ACCOUNT NUMBER: 5620062190 
+              ACCOUNT NUMBER: 5620062190
               <br />
               SWIFT CODE: FIDTNGLA
             </p>
           </div>
-          
+
           <div className="visaPay">
             <h2>3. Cheque</h2>
             <h5> Write a Cheque "ACCOUNT NAME"</h5>
@@ -84,7 +81,7 @@ const Donate = () => {
             <p>
               BANK: Fidelity Bank
               <br />
-               ACCOUNT NUMBER: 5620062190
+              ACCOUNT NUMBER: 5620062190
             </p>
           </div>
         </div>
