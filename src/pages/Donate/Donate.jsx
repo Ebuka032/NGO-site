@@ -6,6 +6,8 @@ import "./Donate.css";
 const Donate = () => {
   const navigate = useNavigate();
 
+  const navigate = useNavigate();
+
   return (
     <div className="donateBody">
       <div className="donateHeader"></div>
@@ -117,6 +119,8 @@ const Donate = () => {
         </div>
       </div>
     </div>
+  );
+};
   );
 };
 
