@@ -1,7 +1,9 @@
 import React from 'react'
-// import "../About/about.css"
+import "./about.css"
 import OurFocus from '../../components/AbountsCom/OurFocus'
 import AboutUs from "../../components/AbountsCom/AboutUs"
+import ConntinueourApproach from "../../components/AbountsCom/ConntinueourApproach"
+import DonationAbout from "../../components/AbountsCom/DonationAbout"
 
 
 const About = () => {
@@ -17,6 +19,8 @@ const About = () => {
         </div>
         <OurFocus/>
         <AboutUs/>
+        <ConntinueourApproach/>
+        <DonationAbout/>
     </div>
   )
 }

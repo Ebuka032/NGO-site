@@ -1,5 +1,14 @@
 import React from "react";
 import "./feature.css"
+import TY from "../../assets/Images/TY.jpg";
+import PACF from "../../assets/Images/PACF.jpg";
+import CCSI from "../../assets/Images/CCSI.jpg";
+import CCFN from "../../assets/Images/CCFN.png";
+import PEPFAR from "../../assets/Images/PEFAR.png"
+import UNICEF from "../../assets/Images/UNICEF.jpg"
+import GPI from "../../assets/Images/GPI.png"
+import UN from "../../assets/Images/UN.jpg"
+
 
 const Features = () => {
   return (
@@ -127,10 +136,26 @@ const Features = () => {
               <div className="imageHolder6"></div>
             
             </div>
-          <div className="partnerwraplogo">
-
-          </div>
-
+          <section className="partners-section">
+                <div className="partners-container">
+                  <div className="partners-text"><h1>MEET OUR <br />PARTNERS</h1></div>
+                  <div className="partners-logos">
+                  <section className='partnersLogosTop'>
+                    <div><img src={CCFN} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                    <div><img src={CCSI} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                    <div><img src={TY} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                    <div><img src={PACF} alt=""  style={{width:"100%", height:"100%"}}/></div>
+          
+                  </section>
+                  <section className='partnersLogosDown'>
+                  <div><img src={PEPFAR} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                  <div><img src={UNICEF} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                  <div><img src={GPI} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                  <div><img src={UN} alt=""  style={{width:"100%", height:"100%"}}/></div>
+                  </section>
+                  </div>
+                </div>
+              </section>
 
 
 

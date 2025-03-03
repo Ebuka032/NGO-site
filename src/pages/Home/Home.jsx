@@ -16,12 +16,13 @@ const Home = () => {
   return (
     <>
       <div className="imgk">
+        <div className="blackBox">
         <p>
           MAKE A CHILD SMILE <br /> TODAY, LITTLE THINGS <br />
           MATTERS.
         </p>
         <button>DONATE NOW</button>
-        <div className="blackBox"></div>
+        </div>
       </div>
       <div className="impactk">
         <div className="leftIm">

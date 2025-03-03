@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Header.css"
-import { NavLink } from 'react-router'
+import { NavLink, useNavigate} from 'react-router'
 import logo from "../../assets/Images/logo.png"
 
 
 const Header = () => {
+    const navigate = useNavigate();
   return (
     <div className='header_body'>
         <div className="header_wrapper">
@@ -21,12 +22,15 @@ const Header = () => {
                 <NavLink to="/features" className="nav-link">
                 <h4 >Features Page</h4> 
                 </NavLink>
+                <NavLink to="/involve" className="nav-link">
                 <h4>Get Involve</h4>
+                </NavLink>
                 <h4>Contact Us</h4>
             </div>
             <div className="right">
-                <div className="donate">
-                    <p>Donate</p>
+
+                <div className="donate" onClick={() => navigate('/donate')}>
+                    Donate
                 </div>
             </div>
         </div>

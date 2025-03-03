@@ -1,6 +1,6 @@
 .imgk {
   width: 100%;
-  height: 750px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,9 +15,11 @@
     color: white;
     font-weight: 800;
     margin-top: 20%;
+    position: absolute;
   }
 
   & button {
+    position: absolute;
     height: max-content;
     width: max-content;
     padding: 12px;
@@ -31,6 +33,7 @@
     margin-top: 15px;
     transition: all 1s ease-in-out;
     cursor: pointer;
+    z-index: 2;
   }
 
   & button:hover {
@@ -39,12 +42,12 @@
   }
 
   & .blackBox {
-    width: 150%;
-    height: 19%;
-    background-color: black;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(104, 104, 104, 0.068), rgb(0, 0, 0)85%);
     position: absolute;
     bottom: 0;
-    right: -1%;
+    right: 0%;
   }
 }
 
