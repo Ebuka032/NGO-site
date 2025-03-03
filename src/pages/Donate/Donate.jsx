@@ -18,7 +18,7 @@ const Donate = () => {
         <div className="descRiption">
           <p>
             CHFI with your generous support, recently donated food items to over
-            50 households, provided scholarships for 2 students,
+            50 households , provided scholarships for 2 students,
             <br />
             <br />
             educational materials to over 10 students, donated over 600 books to

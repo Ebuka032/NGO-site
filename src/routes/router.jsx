@@ -10,9 +10,7 @@ import Donate from "../pages/Donate/Donate"
 import Donateform from "../pages/Donate/DonateForm";
 import Successpage from "../pages/Donate/Successpage";
 
-
-
-export  const Element = createBrowserRouter([
+const Element = createBrowserRouter([
     {
         path: "/",
         element: <Homelayout />,
@@ -53,3 +51,5 @@ export  const Element = createBrowserRouter([
         element: <Successpage/>
     },
 ])
+
+export default Element;
