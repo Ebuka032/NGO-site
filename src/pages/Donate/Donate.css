@@ -26,8 +26,8 @@
 }
 
 .donateMoney h1 {
-  font-family: "Montserrat", serif;
-  font-weight: bolder;
+  font-family: "Montserrat", serif; 
+   font-weight: bolder;
   margin-left: 180px;
   color: white;
   font-size: 35px;
@@ -56,7 +56,10 @@
 .descRiption p {
   width: 100%;
   height: 20vh;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", serif;}
+
+.descRiption h5 {
+  font-weight: 700;
 }
 
 .descImage {
@@ -64,6 +67,81 @@
   height: 100vh;
   background-color: #191d18;
 }
+
+.donatePay {
+  width: 95%;
+  height: 35vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.paymentPlatform {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.visaPay {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  font-family: "Montserrat", serif;
+}
+
+.visaPay h2 {
+  font-size: 30px; 
+  font-weight: bold;
+  
+}
+
+.visaPay p:first-of-type {
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.visaPay div {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+
+}
+
+.visaPay img:first-child {
+  width: 35px;
+}
+
+.visaPay svg {
+  width: 80px;
+  height: auto;
+}
+
+.visaPay img:last-child {
+  width: 75px;
+}
+
+.visaPay button {
+  margin-top: 15px; 
+}
+
+
+.visaPay p {
+  font-size: 16px;
+
+}
+
+
+.visaPay p:nth-child(3),
+.visaPay p:nth-child(4),
+.visaPay p:nth-child(5),
+.visaPay h5 {
+  font-weight: bold;
+}
+
+
+
 
 button {
   width: 150px;
@@ -73,4 +151,71 @@ button {
   color: white;
   font-size: larger;
   font-weight: bold;
+}
+
+.partnersDiv {
+  width: 95%;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnersLink {
+  width: 80%;
+  height: 65%;
+  background-color: #366227;
+  display: flex;
+}
+
+.meetDiv {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetDiv h1 {
+  font-family: "Montserrat", serif; 
+   color: white;
+  font-size: 40px;
+}
+
+.sponsorDiv {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.sponsorDiv1 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sponsorDiv2 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  gap: 15px;
+}
+
+.sponsorImg {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+}
+
+.sponsorImg1 {
+  width: 100%;
+  height: 90%;
+  background-color: white;
 }

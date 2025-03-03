@@ -7,7 +7,7 @@ import React from "react";
 import Involve from "../pages/Involve/Involve";
 import Contact from "../pages/Donate/Donate"
 import Donate from "../pages/Donate/Donate"
-import Donateform from "../pages/Donate/DonateForm";
+import Donateform from "../pages/Donate/Donateform";
 import Successpage from "../pages/Donate/Successpage";
 
 const Element = createBrowserRouter([
