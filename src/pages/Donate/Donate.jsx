@@ -6,8 +6,6 @@ import "./Donate.css";
 const Donate = () => {
   const navigate = useNavigate();
 
-  const navigate = useNavigate();
-
   return (
     <div className="donateBody">
       <div className="donateHeader"></div>
@@ -20,7 +18,7 @@ const Donate = () => {
         <div className="descRiption">
           <p>
             CHFI with your generous support, recently donated food items to over
-            50 households , provided scholarship for 2 students,
+            50 households, provided scholarships for 2 students,
             <br />
             <br />
             educational materials to over 10 students, donated over 600 books to
@@ -64,7 +62,7 @@ const Donate = () => {
             </div>
             <button onClick={() => navigate("/donate-form")}>DONATE NOW</button>
           </div>
-          
+
           <div className="visaPay">
             <h2>2. Local Bank Transfer</h2>
             <p>ACCOUNT NAME:</p>
@@ -73,12 +71,12 @@ const Donate = () => {
             <p>
               BANK: Fidelity Bank
               <br />
-              ACCOUNT NUMBER: 5620062190 
+              ACCOUNT NUMBER: 5620062190
               <br />
               SWIFT CODE: FIDTNGLA
             </p>
           </div>
-          
+
           <div className="visaPay">
             <h2>3. Cheque</h2>
             <h5> Write a Cheque "ACCOUNT NAME"</h5>
@@ -86,7 +84,7 @@ const Donate = () => {
             <p>
               BANK: Fidelity Bank
               <br />
-               ACCOUNT NUMBER: 5620062190
+              ACCOUNT NUMBER: 5620062190
             </p>
           </div>
         </div>
@@ -119,8 +117,6 @@ const Donate = () => {
         </div>
       </div>
     </div>
-  );
-};
   );
 };
 

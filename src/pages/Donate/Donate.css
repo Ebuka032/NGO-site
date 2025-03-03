@@ -1,151 +1,76 @@
-.formBody{
+.donateBody {
   width: 100%;
   height: max-content;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:#4aee13
+  background-color: #4aee13;
 }
 
-.donateimgPart{
+.donateHeader {
   width: 95%;
-  height:100vh;
-  background-color: rgba(0, 0, 0, 0.741);
+  height: 20vh;
   display: flex;
-  flex-direction: column;
+  background-color: white;
+  justify-content: center;
   align-items: center;
-
 }
 
-/* .donateimgPart{
-  background-image: ;
-  position-;
-} */
-
-.iconHub{
-  width:95%;
-  height: 12vh ;
+.donateMoney {
+  width: 95%;
+  height: 15vh;
+  background-color: #366227;
   display: flex;
   align-items: center;
-  justify-content: end;
-
-  
 }
 
-.closeIcon {
-  cursor: pointer;
-  transition: color 0.9s ease-in-out; 
-}
-
-.closeIcon:hover {
-  color: #4aee13; 
-}
-
-
-
-.giveOnce{
-width:80% ;
-height: 7vh;
-display: flex;
-justify-content: space-between;
-
-
-& h4{
-  color: white;
-  font-family: "Montserrat", serif;  }
-}
-
-.donaButton{
-display:flex;
-align-items: center;
-gap: 1px ;
-
-}
-
-
-.giveButton{
-  width: 170px;
-  height: 50px;
- color: white;
- border:1px solid white;
- border-radius: 0px;
- background-color: transparent;
- font-weight: 100; 
- font-family: "Montserrat", serif;}
-
-.fillForm{
- width: 90%;
- height: 70vh;
- display: flex;
- justify-content: space-between;
- align-items: center;
- font-family: "Montserrat", serif;
-
-
- & h1{
-  font-size: 40px;
+.donateMoney h1 {
+  font-family: "Montserrat", serif;
   font-weight: bolder;
+  margin-left: 180px;
   color: white;
- }
-
+  font-size: 35px;
 }
 
-.propFinace{
-font-size: 30px;
-margin-top: 5px;
-color: white;
-}
-
-
-.cornerHub{
-width:60%;
-height: 80%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-bottom: 40px;
-margin-left: 70px;
-
-}
-
-.formDonation{
- width: 40%;
- height: 95%;
- background-color: white;
- display: flex;
- flex-direction: column;
- margin-right: 50px;
-
-
-& input{
-  width: 90%;
-  height: 25%;
-  display: flex;
-  align-self: center;
-  border: 1px solid black;
-  padding:4px;
-}
-& p {
-   padding-left: 25px;
-   font-size: 15px;
-   font-family: "Montserrat", serif;     
-
-
-}
-
-}
-
-
-.donaTon{
-  width: 92%;
-  height: 30%;
-  border-radius: 0px;
+.donateDesc {
+  width: 95%;
+  height: 100vh;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
-  border: 1px solid black;
-  margin-bottom: 10px;
+  flex-direction: column;
+}
 
+.descRiption {
+  width: 65%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.descRiption p {
+  width: 100%;
+  height: 20vh;
+  font-family: "Montserrat", serif;
+}
+
+.descImage {
+  width: 75%;
+  height: 100vh;
+  background-color: #191d18;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #366227;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
 }
