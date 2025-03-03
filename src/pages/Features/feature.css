@@ -53,6 +53,7 @@
 }
 
 .featuredonatebtn {
+  height: 20%;
     background-color: #366227;
     margin-top: 30px;
     border-radius: 8px;
@@ -376,4 +377,21 @@ p {
 
 .supportpage h1 {
     font-weight: 800;
+}
+
+.donateButton{
+  background: #366227;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  /* font-family: "Montserrat"; */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  height: 20%;
+}
+.donateButton:hover {
+  background: #9bf809;
+  color: #000;
 }

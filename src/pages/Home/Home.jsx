@@ -12,7 +12,10 @@ import PEPFAR from "../../assets/Images/PEFAR.png"
 import UNICEF from "../../assets/Images/UNICEF.jpg"
 import GPI from "../../assets/Images/GPI.png"
 import UN from "../../assets/Images/UN.jpg"
+import { useNavigate } from "react-router";
+
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="imgk">
@@ -181,7 +184,7 @@ const Home = () => {
             <br /> COURSE OF A PERSON'S <br />
             LIFE TODAY!
           </p>
-          <button>DONATE NOW</button>
+          <button onClick={()=>navigate("/donate")}>DONATE NOW</button>
         </div>
       </div>
 

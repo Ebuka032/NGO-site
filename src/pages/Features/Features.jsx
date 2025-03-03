@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router";
 import "./feature.css"
 import TY from "../../assets/Images/TY.jpg";
 import PACF from "../../assets/Images/PACF.jpg";
@@ -11,6 +12,7 @@ import UN from "../../assets/Images/UN.jpg"
 
 
 const Features = () => {
+  const navigate = useNavigate();
   return (
     <div className="featurewrapper">
       <div className="featureimagewrapper">
@@ -18,7 +20,7 @@ const Features = () => {
           <h1 className="imagetext">
             MAKE A CHILD SMILE TODAY,LITTLE THINGS MATTERS.
           </h1>
-          <button className="featuredonatebtn">DONATE NOW</button>
+          <button className="featuredonatebtn" onClick={()=> navigate("/donate")}>DONATE NOW</button>
         </div>
       </div>
         <div className="featureShadowCover"></div>  
@@ -157,6 +159,16 @@ const Features = () => {
                 </div>
               </section>
 
+
+              <div className='donation-sectionMain'>
+        <section className="donation-section">
+        <h2>
+          SUPPORT US AND CHANGE THE <br /> COUSE OF A PERSON’S <br />
+          LIFE TODAY!
+        </h2>
+        <button className="donateButton" onClick={()=>navigate("/donate")}>DONATE NOW</button>
+      </section>
+    </div>
 
 
       </div>

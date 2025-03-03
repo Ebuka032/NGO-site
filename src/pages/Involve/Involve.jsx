@@ -5,8 +5,9 @@ import { FaArrowRight } from "react-icons/fa6";
 import { LuHeartOff } from "react-icons/lu";
 import { LiaHandHoldingHeartSolid } from "react-icons/lia";
 import { FaHandsHoldingChild } from "react-icons/fa6";
-
+import { useNavigate } from "react-router";
 const Involve = () => {
+  const navigate = useNavigate();
   return (
     <div className="mainCont">
       <div className="firstCont">
@@ -263,7 +264,7 @@ const Involve = () => {
           SUPPORT US AND CHANGE THE <br /> COUSE OF A PERSON’S <br />
           LIFE TODAY!
         </h2>
-        <button className="donate-button">DONATE NOW</button>
+        <button className="donate-button" onClick={()=>navigate("/donate")}>DONATE NOW</button>
       </section>
     
     </div>
